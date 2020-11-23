@@ -287,11 +287,33 @@ ul {
 
 .row-2{
   justify-content: space-between;
-  margin: 100px auto 50ps;
+  margin: 100px auto 50px;
+}
+select{
+  border: 1px solid #c66f9f;
+  padding:5px;
+}
+select:focus{
+  outline:none;
 }
 
-
-
+.page-btn{
+  margin:0 auto 80px;
+}
+.page-btn span{
+  display:inline-block;
+  border:1px solid #e77bd0;
+  margin-left: 10px;
+  width:40px;
+  height:40px;
+  text-align:center;
+  line-height:40px;
+  cursor:pointer;
+}
+.page-btn span:hover{
+  background:#e77bd0;
+  color: #fff;
+}
 /*----------Media queries Mobile devices-------*/
 
 @media only screen and(max-width:600px){

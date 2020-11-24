@@ -359,6 +359,9 @@ input:focus{
   flex-basis:24%;
   cursor:pointer;
 }
+
+
+
 /*----------Media queries Mobile devices-------*/
 
 @media only screen and(max-width:600px){
